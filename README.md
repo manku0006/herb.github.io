@@ -16,18 +16,18 @@ os.makedirs('static/images', exist_ok=True)
 HERBS_DATA = [
     {
         "id": 0,
-        "name": "Turmeric",
-        "scientificName": "Curcuma longa",
-        "image": "/static/images/turmeric.png",
-        "description": "Turmeric is a bright yellow spice widely used in Indian cuisine and traditional medicine. It's renowned for its powerful anti-inflammatory and antioxidant properties.",
-        "uses": [
+        "Name": "Turmeric",
+        "ScientificName": "Curcuma longa",
+        "Image": "/static/images/turmeric.png",
+        "Description": "Turmeric is a bright yellow spice widely used in Indian cuisine and traditional medicine. It's renowned for its powerful anti-inflammatory and antioxidant properties.",
+        "Uses": [
             "Reduces inflammation and joint pain",
             "Supports digestion and liver health",
             "Boosts immunity and fights infections",
             "Promotes healthy skin",
             "May help prevent cancer"
         ],
-        "precautions": [
+        "Precautions": [
             "May thin blood - consult doctor if on blood thinners",
             "High doses may cause stomach upset",
             "Avoid before surgery"
@@ -35,11 +35,11 @@ HERBS_DATA = [
     },
     {
         "id": 1,
-        "name": "Ginger",
-        "scientificName": "Zingiber officinale",
-        "image": "/static/images/ginger.png",
-        "description": "Ginger is a flowering plant with a spicy, aromatic rhizome used fresh, dried, or powdered. It's one of the healthiest spices on Earth.",
-        "uses": [
+        "Name": "Ginger",
+        "ScientificName": "Zingiber officinale",
+        "Image": "/static/images/ginger.png",
+        "Description": "Ginger is a flowering plant with a spicy, aromatic rhizome used fresh, dried, or powdered. It's one of the healthiest spices on Earth.",
+        "Uses": [
             "Relieves nausea and motion sickness",
             "Reduces muscle pain and soreness",
             "Anti-inflammatory effects",
